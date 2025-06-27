@@ -1,25 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetRabbitMQ.Send", "DotnetRabbitMQ.Send\DotnetRabbitMQ.Send.csproj", "{1D53424D-ABFE-4232-8DF8-406C2A9A792E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{96CD4346-E425-4BD6-B297-8340A8B9E2EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{2DDE9728-A8AA-4DE0-BF26-3F45158E03B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D53424D-ABFE-4232-8DF8-406C2A9A792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D53424D-ABFE-4232-8DF8-406C2A9A792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D53424D-ABFE-4232-8DF8-406C2A9A792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D53424D-ABFE-4232-8DF8-406C2A9A792E}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {81F58C5E-93B2-4F64-A750-E02612756345}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96CD4346-E425-4BD6-B297-8340A8B9E2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CD4346-E425-4BD6-B297-8340A8B9E2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CD4346-E425-4BD6-B297-8340A8B9E2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CD4346-E425-4BD6-B297-8340A8B9E2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDE9728-A8AA-4DE0-BF26-3F45158E03B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDE9728-A8AA-4DE0-BF26-3F45158E03B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDE9728-A8AA-4DE0-BF26-3F45158E03B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDE9728-A8AA-4DE0-BF26-3F45158E03B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
