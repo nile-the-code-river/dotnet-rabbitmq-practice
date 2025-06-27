@@ -11,7 +11,7 @@ using var channel = await connection.CreateChannelAsync();
 await channel.QueueDeclareAsync(queue: "hello", durable: false, exclusive: false, autoDelete: false,
     arguments: null);
 
-const string message = "Hello World!";
+const string message = "Hanamiya Rules!";
 var body = Encoding.UTF8.GetBytes(message);
 
 
